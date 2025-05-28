@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "@/styles/Signup.module.css";
+import styles from "@/styles/Login.module.css";
 import { Card } from "react-bootstrap";
 
 export default function Login() {

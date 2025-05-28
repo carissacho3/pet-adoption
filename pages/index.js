@@ -56,13 +56,10 @@ export default function Home() {
                   <Card.Title>{pet.name}</Card.Title>
                   <Card.Text>
                     Breed: {pet.breed || "Unknown"} <br />
-                    Age: {pet.age} year{pet.age > 1 ? "s" : ""} <br />
+                    Age: {pet.age} year{pet.age > 1 ? "s" : ""} old <br />
                     Sex: {pet.sex}
                   </Card.Text>
-                  {/* <a href={`/pets/${pet.id}`} className="text-primary">
-    Read More &gt;&gt;
-  </a> */}
-                  <a href={"/"} className={`text-primary ${styles.links}`}>
+                  <a href={`/details/${pet._id}`} className={`text-primary ${styles.links}`}>
                     Read More &gt;&gt;
                   </a>
                 </Card.Body>

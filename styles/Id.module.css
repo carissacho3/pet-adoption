@@ -1,0 +1,41 @@
+.animalcard {
+  display: flex;
+  max-width: 800px;
+  margin: 0 ;
+  padding: 20px;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.animalimage {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.animalinfo {
+  flex: 1;
+}
+
+.animalinfo h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.animalinfo p {
+  margin: 6px 0;
+}
+
+.animaldesc {
+  margin-top: 16px;
+}
+
+.bookmarkButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  margin-top: 10px;
+
+}
