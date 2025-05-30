@@ -38,17 +38,17 @@ const MainNav = () => {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className={`me-auto my-2 my-lg-0 nav ${styles.Nav}`} navbarScroll>
-            <Nav.Link href="/">About Us</Nav.Link>
+            <Nav.Link href="/aboutus">About Us</Nav.Link>
             <NavDropdown title="Adopt a Pet" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/">Dog</NavDropdown.Item>
+              <NavDropdown.Item href="/Dog">Dog</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/">Cat</NavDropdown.Item>
+              <NavDropdown.Item href="/Cat">Cat</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/">Bird</NavDropdown.Item>
+              <NavDropdown.Item href="/Bird">Bird</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/">Rabbit</NavDropdown.Item>
+              <NavDropdown.Item href="/Rabbit">Rabbit</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/">Contact Us</Nav.Link>
+            <Nav.Link href="/contactus">Contact Us</Nav.Link>
           </Nav>
 
           {user ? (
